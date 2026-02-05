@@ -28,3 +28,6 @@ var b = "hello";
 
 console.log(a);
 console.log(b);
+
+
+// addition of two numbers

@@ -65,7 +65,7 @@ type of operators:
 
 unary operators:
 1)increment operator: ++a, a++
-2)decrement operator: --a, a--
+2)decrement operator: --a, a--WW#
 
 2)binary operators:
 1)arithmetic operators: +,-,*,/,%,++,--,**
