@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body>
+
+    <form onsubmit="Submit(event)">
+
+        <label for="fn">First name</label>
+        <input type="text" id="fn" name="fn">
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2 id="output"></h2>
+
+<script>
+
+    function Submit(event)
+    {
+        event.preventDefault();
+
+        var name = document.getElementById("fn").value;
+
+        document.getElementById("output").innerHTML = "Your name is: " + name;
+    }
+
+</script>
+
+</body>
+</html>
