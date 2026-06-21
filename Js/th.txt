@@ -1,0 +1,57 @@
+2 types of programming languages:
+
+1. Statically typed programming languages: 
+    -> c, java, cpp, html, css
+
+2. Dynamically typed programming languages:
+    -> python, php, js
+
+
+---------------------------------------------
+
+
+we have 3 types way to write js code:
+
+1. internal js
+2. external js
+3. inline js
+
+
+
+we can use 
+var, let and const to declare a variable in js.
+
+---------------------------------------------
+
+
+javascript  has 2 main onjects :
+
+    BOM : browser object model
+    DOM : document object model
+
+--------------------------------------------------
+
+
+JS engines : 
+    netscapes : spider monkey
+    google chorme : v8
+    safari : javascript core
+    edge : chakra 
+
+
+----------------------------------------------
+
+number 
+string 
+boolean 
+undefined
+
+
+----------------------------------------------
+
+if(condition){
+    // code 
+}
+else {
+    // code
+}
